@@ -8,7 +8,7 @@ O computador reconhece o numero decimal desta forma:
  -10   5 |_2
    0  -4   2 |_2
        1  -2   1
-	       0    
+	   0    
 
 O valor correspondente ao numero 10, começando pelo quociente é: 1 0 1 0;
 
