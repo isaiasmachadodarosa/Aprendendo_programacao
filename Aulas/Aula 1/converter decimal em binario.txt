@@ -1,0 +1,15 @@
+A "linguagem" (sinal) que o computador reconhece é o binario (bits) "0" ou "1", numeração de base 2;
+
+Nos entendos os numeros no formato decimal;
+
+O computador reconhece o numero decimal desta forma:
+
+  10 |_2
+ -10   5 |_2
+   0  -4   2 |_2
+       1  -2   1
+	       0
+
+O valor correspondente ao numero 10, começando pelo quociente é: 1 0 1 0;
+
+Pois (2³ X 1) + (2² X 0) + (2¹ X 1) + (2º X 0) => 8 + 0 + 2 + 0 = 10; 
