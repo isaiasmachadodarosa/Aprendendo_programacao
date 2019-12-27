@@ -39,31 +39,31 @@ TEMA: Tabela Verdade, portas lógicas e Mapa de Karnaugh
 			
 			1º passo: insira os valores das saidas no mapa abaixo:
 			  
-				   ~C     |      C
-				---------------------
+			       ~C     |      C
+			    ---------------------
 			 ~A |  0 |  1 |  3 |  2 | ~B
 			    -------------------------
 			    |  4 |  5 |  7 |  6 |
 			-------------------------  B
-				| 12 | 13 | 15 | 14 |
-				-------------------------
+			    | 12 | 13 | 15 | 14 |
+			    -------------------------
 			  A |  8 |  9 | 11 | 10 | ~B
-				---------------------
-				  ~D |    D    | ~D
+			    ---------------------
+			      ~D |    D    | ~D
 			 
 			 -------------------------------
 				  
-				   ~C     |      C
-				---------------------
+			       ~C     |      C
+			    ---------------------
 			 ~A |    |    |    |    | ~B
 			    -------------------------
 			    |    |    |    |    |
 			-------------------------  B
-				|    |    |    |    |
-				-------------------------
+			    |    |    |    |    |
+			    -------------------------
 			  A |    |    |    |    | ~B
-				---------------------
-				  ~D |    D    | ~D
+			    ---------------------
+			      ~D |    D    | ~D
 				  
 			2º passo: circule os pares de valores Verdadeiros "1" nas extremidades, nas colunas e nas linhas, por exemplo: se nas celulas 0,2,13,9
 				estiver o valor 1 os pares serão respectivamente 0 e 2; 13 e 9.
