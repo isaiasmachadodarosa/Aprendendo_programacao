@@ -1,0 +1,73 @@
+TEMA: Tabela Verdade, portas lógicas e Mapa de Karnaugh
+
+	Tabela Verdade
+	
+		Link para a teoria: https://www.todamateria.com.br/tabela-verdade/
+		
+		Tabela verdade OR (OU), tendo como entradas A, B e S a saída correspondente, sendo 0 para Falso (F) e 1 para Verdadeiro (V):
+		
+			A | B | S
+			0 | 0 | 0
+			0 | 1 | 1
+			1 | 0 | 1
+			1 | 1 | 1
+			
+			DEDUÇÃO: Logo, para qualquer entrada verdadeira, a saída será verdadeira.
+			
+		Tabela verdade AND (E), tendo como entradas A, B e S a saída correspondente, sendo 0 para Falso (F) e 1 para Verdadeiro (V):
+		
+			A | B | S
+			0 | 0 | 0
+			0 | 1 | 0
+			1 | 0 | 0
+			1 | 1 | 1
+			
+			DEDUÇÃO: Logo, para todas as entradas verdadeiras, a saída será verdadeira.
+			
+		LIÇÃO: Construa as Tabelas verdades NAND, NOR, XOR, XNOR, tendo como entradas A, B e S a saída correspondente e fazendo também a dedução.
+		
+	Portas Lógicas
+	
+		Link para o tema: https://www.embarcados.com.br/portas-logicas/
+		
+	Mapa de Karnaugh
+	
+		Link para o tema: https://pt.wikipedia.org/wiki/Mapa_de_Karnaugh
+
+		LIÇÃO: Construa a saida da função, onde a mesma recebe um valor que ira variar entre 0 á 15 (ver valores binários obtidos na lição da aula 1),
+			e validará somente numeros entre 3 á 9 ( como se fosse a senha de um usuario).
+			
+			1º passo: insira os valores das saidas no mapa abaixo:
+			  
+				   ~C     |      C
+				---------------------
+			 ~A |  0 |  1 |  3 |  2 | ~B
+			    -------------------------
+			    |  4 |  5 |  7 |  6 |
+			-------------------------  B
+				| 12 | 13 | 15 | 14 |
+				-------------------------
+			  A |  8 |  9 | 11 | 10 | ~B
+				---------------------
+				  ~D |    D    | ~D
+			 
+			 -------------------------------
+				  
+				   ~C     |      C
+				---------------------
+			 ~A |    |    |    |    | ~B
+			    -------------------------
+			    |    |    |    |    |
+			-------------------------  B
+				|    |    |    |    |
+				-------------------------
+			  A |    |    |    |    | ~B
+				---------------------
+				  ~D |    D    | ~D
+				  
+			2º passo: circule os pares de valores Verdadeiros "1" nas extremidades, nas colunas e nas linhas, por exemplo: se nas celulas 0,2,13,9
+				estiver o valor 1 os pares serão respectivamente 0 e 2; 13 e 9.
+				
+			3º passo: simplifique a função de saida, sendo assim o resultado será: (~A.~B.~D) + ( A.~C.D), nota-se que na 1ª equação a variavel "C" 
+			e na 2ª equação a variavel "B" tornaram-se desnecessárias, simplificando assim o circuito.
+				
