@@ -12,4 +12,7 @@ O computador reconhece o numero decimal desta forma:
 
 O valor correspondente ao numero 10, começando pelo quociente e adicionando os "resto" é: 1 0 1 0;
 
-Pois (2³ X 1) + (2² X 0) + (2¹ X 1) + (2º X 0) => 8 + 0 + 2 + 0 = 10; 
+Pois (2³ X 1) + (2² X 0) + (2¹ X 1) + (2º X 0) => 8 + 0 + 2 + 0 = 10;
+
+LIÇÃO: converta os numeros decimais de 0 a 15 para binário.
+ 
