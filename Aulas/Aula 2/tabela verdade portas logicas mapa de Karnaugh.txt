@@ -65,9 +65,7 @@ TEMA: Tabela Verdade, portas lógicas e Mapa de Karnaugh
 			    ---------------------
 			      ~D |    D    | ~D
 				  
-			2º passo: circule os pares de valores Verdadeiros "1", como também o que estão isolados, tanto os que estiverem nas extremidades, nas colunas e nas linhas. Por exemplo: se nas celulas 0,2,13,9,14
-				estiver o valor 1 os pares serão respectivamente 0 e 2; 13 e 9; e valor isolado sera o 14.
+			2º passo: circule os pares de valores Verdadeiros "1", como também o que estão isolados, tanto os que estiverem nas extremidades, nas colunas e nas linhas. Por exemplo: se nas celulas 0,2,13,9,14 estiver o valor 1 os pares serão respectivamente 0 e 2; 13 e 9; e valor isolado sera o 14.
 				
-			3º passo: simplifique a função de saida, sendo assim o resultado será: (~A.~B.~D) + ( A.~C.D) + (A.B.C.~D), nota-se que na 1ª equação a variavel "C" 
-			e na 2ª equação a variavel "B" tornaram-se desnecessárias, simplificando assim o circuito.
+			3º passo: simplifique a função de saida, sendo assim o resultado será: (~A.~B.~D) + ( A.~C.D) + (A.B.C.~D), nota-se que na 1ª equação a variavel "C" e na 2ª equação a variavel "B" tornaram-se desnecessárias, simplificando assim o circuito.
 				
