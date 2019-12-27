@@ -37,7 +37,7 @@ TEMA: Tabela Verdade, portas lógicas e Mapa de Karnaugh
 		LIÇÃO: Construa a saida da função, onde a mesma recebe um valor que ira variar entre 0 á 15 (ver valores binários obtidos na lição da aula 1),
 			e validará somente numeros entre 3 á 9 ( como se fosse a senha de um usuario).
 			
-			1º passo: insira os valores das saidas no mapa abaixo:
+			1º passo: insira os valores das saidas no mapa abaixo, sendo a variavel A o bit mais significativo e D o menos significativo:
 			  
 			       ~C     |      C
 			    ---------------------
