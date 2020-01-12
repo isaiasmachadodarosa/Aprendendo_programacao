@@ -1,5 +1,5 @@
 import javax.swing.JOptionPane;
-
+// classe que converte decimal em binario
 public class Converte_Dec_Bin {
 
 	private int testa_val_dec() {
