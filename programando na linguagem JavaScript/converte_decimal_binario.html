@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body {
+            background-color: coral;
+            color: white;
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Parabéns, tu ja esta programando em JS!</h1>
+    <script>
+
+        function testa_decimal() {
+            var val_decimal = -1
+            while (val_decimal < 0 || val_decimal > 15) {
+                val_decimal = prompt('Digite um valor entre 0 e 15')
+            }
+            return val_decimal
+        }
+
+        function conv_dec_binario(val_decimal) {
+            var valor = val_decimal
+            var binario = []
+            for (var i = 0; i < 4; i++) {
+                if (valor % 2 == 1) {
+                    binario.push(true)
+                }
+                else { binario.push(false) }
+                valor = parseInt(valor / 2)
+            }
+            binario.reverse()
+            return binario
+        }
+
+        function testa_senha(val_binario) {
+            if ((!val_binario[0] && val_binario[1]) || (!val_binario[0] && val_binario[2] && val_binario[3])
+                || (val_binario[0] && !val_binario[1] && !val_binario[2])) { return val_binario + ' => Acesso permitido!' }
+            else {
+                return val_binario + ' => Acesso negado!'
+            }
+        }
+
+        alert(testa_senha(conv_dec_binario(testa_decimal())))
+
+    </script>
+</body>
+
+</html>
